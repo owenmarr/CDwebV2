@@ -1,0 +1,20 @@
+{
+    dateOne{
+      count: "number of results that day";
+      stdvAvg: "average that day";
+      median: "median that day";
+    }
+
+    dateTwo{
+      count: "number of results that day";
+      stdvAvg: "average that day";
+      median: "median that day";
+    }
+
+    dateN{
+      count: "number of results that day";
+      stdvAvg: "average that day";
+      median: "median that day";
+    }
+
+}

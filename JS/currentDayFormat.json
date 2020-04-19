@@ -1,0 +1,29 @@
+{
+    car1: {
+      "price": 111,
+      "miles": 11,
+      "extColor": "one",
+      "intColor": "intcolorone",
+      "link": "www.linkOne.com",
+      "trans": "automatic or manual"
+    }
+
+    car2: {
+      "price": 222,
+      "miles": 22,
+      "extColor": "two",
+      "intColor": "intcolortwo",
+      "link": "www.linkTwo.com",
+      "trans": "automatic or manual"
+    }
+
+    carN: {
+      "price": 333,
+      "miles": 33,
+      "extColor": "N",
+      "intColor": "intcolorN",
+      "link": "www.linkN.com",
+      "trans": "automatic or manual"
+    }
+
+}
