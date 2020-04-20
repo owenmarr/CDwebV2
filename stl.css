@@ -1,0 +1,372 @@
+/*Resest Styling Code Imported from:
+http://html5doctor.com/html-5-reset-stylesheet/*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE STARTS HERE
+---------------------------------------------------
+---------------------------------------------------*/
+* {
+  text-decoration: none;
+}
+
+
+/*NAV BAR___________________________________NAV BAR*/
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 102px;
+}
+
+.header-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111111;
+  display: block;
+  margin: 31px 0;
+  text-align: left;
+  padding: 0px 20px 0px 40px;
+  border-right: 2px solid #111;
+  float: left;
+  line-height: 40px;
+}
+
+header nav ul {
+  display: block;
+  width: fit-content;
+  margin: 20px 0px 0px 10px;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0px 0px 0px 10px;
+}
+
+header nav ul li a {
+  line-height: 62px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #111;
+}
+
+/*INDEX PAGE____________________________INDEX PAGE*/
+.index-banner {
+  width: 100%;
+  background-image: url('img/huayra.jpeg');
+  background-repeat: no-repeat;
+  background-position: 0 -340px;
+  display: table;
+  height: 450px;
+  float: center;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.vertical-center h2 {
+  margin-top: 10px;
+}
+
+.index-banner {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  text-shadow: 2px 2px 10px black;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+select {
+  height: 40px;
+  width: 10%;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  font-size: 20px;
+}
+button {
+  background-color: #FFFFFF;
+  padding: 16px 32px;
+
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font weight: bold;
+  font-size: 20px;
+}
+
+#text-logo {
+  width: 100%;
+  height: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+  color: #111;
+  font-weight: 600;
+  display: block;
+  float: center;
+  text-align: center;
+  display: table;
+  display: inline-block;
+}
+
+#logo-border {
+  width: fit-content;
+  border: 4px solid #111;
+  float: center;
+  text-align: center;
+  display: table;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.spacer {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+/*FOOTER__________________________FOOTER*/
+footer {
+  width: calc(100% - 80px);
+  padding: 32px 40px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul{
+  width: fit-content;
+  float: center;
+  display: block;
+  margin: 0 auto;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  padding: 0px 20px;
+}
+
+footer ul li a {
+  font-family: 'Open Sans', sans-serif;
+  float: center;
+  font-size: 20px;
+  color: #fff;
+  line-height: 34px;
+}
+
+
+
+/* ------------------------------------------------
+Display Page
+--------------------------------------------------*/
+#disp-result {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 50px;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.chartTitles {
+    width: 100%;
+    height: 100px;
+}
+
+#curChartTitle {
+  height: 100px;
+  width: 500px;
+  margin: 0 0 0 100px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+
+#hisChartTitle {
+  height: 100px;
+  width: 500px;
+  margin: 0 100px 0 100px;
+  float: right;
+  text-align: center;
+  line-height: 100px;
+}
+
+.chartTitles p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
+
+.Charts {
+  height: 700px;
+  width: 100%;
+  background-color:#FFFFFF;
+  display: table;
+  display: inline-block;
+  text-align: center;
+}
+
+.Current {
+  height: 400px;
+  width: 600px;
+  margin: 0 0 0 50px;
+  float: left;
+}
+
+.Historic {
+  height: 400px;
+  width: 600px;
+  margin-right: 50px;
+  float: right;
+}
+
+#hischart {
+  background-color: #F3F3F3;
+}
+
+#curchart {
+  background-color: #F3F3F3;
+}
+
+
+/* CONTACT PAGE*/
+.contact {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  display: table;
+  display: inline-block;
+  text-align: center;
+}
+.contactinfo {
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 400px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style:italic;
+}
+
+
+
+/* CONTACT PAGE*/
+.about {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  display: table;
+  display: inline-block;
+  text-align: center;
+}
+.aboutinfo {
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style:italic;
+}
