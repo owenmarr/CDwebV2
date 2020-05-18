@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stl.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <style>
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="header-brand">The Right Example</a>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="developer.html">Developer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="index-banner">
+      <div class="vertical-center">
+        <h2>Finding The Right Example<br> by leveraging market data</h2>
+        <form>
+          <div class="boxes">
+            <select id="make" onchange="getMake()">
+              <option value="A">Make</option>
+              <option value="Ferrari">Ferrari</option>
+              <option value="Lamborghini">Lamborghini</option>
+              <option value="McLaren">McLaren</option>
+              <option value="Tesla">Tesla</option>
+            </select>
+            <select id="model">
+              <option value="allModels">Model</option>
+            </select>
+          </div>
+        </form>
+        <a class="search">
+          <button type="submit" id="search" onclick="search()">Search</button>
+        </a>
+      </div>
+    </section>
+    <div id="text-logo">
+      <div id="logo-border">
+              <p>&nbspT R E&nbsp</p>
+      </div>
+    </div>
+    <div id='disp-result'>
+      <p id='disp2'>Please select a car above</p>
+    </div>
+    <div class="chartTitles">
+      <div id="curChartTitle">
+        <p>Current Market Listings</p>
+      </div>
+      <div id="hisChartTitle">
+        <p>Historical Values</p>
+      </div>
+    </div>
+    <div class="Charts">
+      <div class="Current">
+        <canvas id="curchart" width="600" height="500"></canvas>
+      </div>
+      <div class="Historic">
+        <canvas id="hischart" width="600" height="500"></canvas>
+      </div>
+    </div>
+    <!--
+    <div class="Filters">
+      <form class="CurFilter" action="index.html" method="post">
+        <div id="PriceFilter">
+          <p>Price Filter</p>
+          <input type="number" id="MaxPrice" value="" placeholder="Max Price"><br>
+          <input type="number" id="MinPrice" value="" placeholder="Min Price">
+        </div>
+        <div id="MilesFilter">
+          <p>Miles Filter</p>
+          <input type="number" id="MaxMiles" value="" placeholder="Max Miles"><br>
+          <input type="number" id="MinMiles" value="" placeholder="Min Miles">
+        </div>
+      </form>
+      <form class="HisFilter" action="index.html" method="post">
+        <div id="DateFilter">
+          <p>Date Filter</p>
+          <input type="date" id="StartDate" placeholder="Start Date">
+          <input type="date" id="StartDate" placeholder="End Date">
+        </div>
+      </form>
+    </div>
+    <div class="FilterActions">
+      <div id="CurUpdate">
+        <button id=update1 onclick="CurUpdate()">Update</button>
+      </div>
+      <div id="HisUpdate">
+        <button id=update2>Update</button>
+      </div>
+    </div>
+    <div id="tester">
+      <p></p>
+    </div>-->
+  </main>
+  <div id="backStop">
+  </div>
+  <footer>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="developer.html">Developer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </footer>
+</body>
+<script src="JS/main.js"></script>
+</html>
