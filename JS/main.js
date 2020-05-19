@@ -65,7 +65,7 @@ var data;
 
 // $.ajax({
 //   type: 'GET',
-//   url: "https://zenithtest1.s3.us-east-2.amazonaws.com/usedexotics.json",
+//   url: "https://zenithtest1.s3.us-east-2.amazonaws.com/usedexotics3.json",
 //   data: "",
 //   success: function(result) {
 //     data = result;
