@@ -57,6 +57,15 @@ function getMake() {
       newOption.value = modelOps[i];
       modelList.appendChild(newOption);
     }
+  } else if (make == "Tesla") {
+    findModels = "Tesla";
+    var modelOps = ['Model 3', 'Model S', 'Model X','Roadster'];
+    for (i = 0; i < modelOps.length; i++) {
+      newOption = document.createElement("option");
+      newOption.appendChild(document.createTextNode(modelOps[i]));
+      newOption.value = modelOps[i];
+      modelList.appendChild(newOption);
+    }
   }
 }
 
